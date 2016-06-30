@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE20A9951D24D23100410B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20A9941D24D23100410B70 /* main.m */; };
+		AE20A9981D24D23100410B70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20A9971D24D23100410B70 /* AppDelegate.m */; };
+		AE20A99B1D24D23100410B70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20A99A1D24D23100410B70 /* ViewController.m */; };
+		AE20A99E1D24D23100410B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE20A99C1D24D23100410B70 /* Main.storyboard */; };
+		AE20A9A01D24D23200410B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE20A99F1D24D23200410B70 /* Assets.xcassets */; };
+		AE20A9A31D24D23200410B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE20A9A11D24D23200410B70 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE20AB241D24D30400410B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522391BBF104D00859F49;
+			remoteInfo = "AFNetworking iOS";
+		};
+		AE20AB261D24D30400410B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522651BBF129200859F49;
+			remoteInfo = "AFNetworking watchOS";
+		};
+		AE20AB281D24D30400410B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522771BBF136400859F49;
+			remoteInfo = "AFNetworking OS X";
+		};
+		AE20AB2A1D24D30400410B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0A51BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS";
+		};
+		AE20AB2C1D24D30400410B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C3B1BC2C79500FD3B3E;
+			remoteInfo = "AFNetworking iOS Tests";
+		};
+		AE20AB2E1D24D30400410B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C4A1BC2C7B200FD3B3E;
+			remoteInfo = "AFNetworking Mac OS X Tests";
+		};
+		AE20AB301D24D30400410B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0AE1BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE20A9901D24D23100410B70 /* SubmoduleSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubmoduleSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE20A9941D24D23100410B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE20A9961D24D23100410B70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE20A9971D24D23100410B70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE20A9991D24D23100410B70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE20A99A1D24D23100410B70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE20A99D1D24D23100410B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE20A99F1D24D23200410B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE20A9A21D24D23200410B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE20A9A41D24D23200410B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFNetworking.xcodeproj; path = AFNetworking/AFNetworking.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE20A98D1D24D23100410B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE20A9871D24D23100410B70 = {
+			isa = PBXGroup;
+			children = (
+				AE20A9921D24D23100410B70 /* SubmoduleSample */,
+				AE20A9AA1D24D2F400410B70 /* Frameworks */,
+				AE20A9911D24D23100410B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE20A9911D24D23100410B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE20A9901D24D23100410B70 /* SubmoduleSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE20A9921D24D23100410B70 /* SubmoduleSample */ = {
+			isa = PBXGroup;
+			children = (
+				AE20A9961D24D23100410B70 /* AppDelegate.h */,
+				AE20A9971D24D23100410B70 /* AppDelegate.m */,
+				AE20A9991D24D23100410B70 /* ViewController.h */,
+				AE20A99A1D24D23100410B70 /* ViewController.m */,
+				AE20A99C1D24D23100410B70 /* Main.storyboard */,
+				AE20A99F1D24D23200410B70 /* Assets.xcassets */,
+				AE20A9A11D24D23200410B70 /* LaunchScreen.storyboard */,
+				AE20A9A41D24D23200410B70 /* Info.plist */,
+				AE20A9931D24D23100410B70 /* Supporting Files */,
+			);
+			path = SubmoduleSample;
+			sourceTree = "<group>";
+		};
+		AE20A9931D24D23100410B70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE20A9941D24D23100410B70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE20A9AA1D24D2F400410B70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE20A9AB1D24D2F400410B70 /* External */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE20A9AB1D24D2F400410B70 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		AE20AB1B1D24D30400410B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE20AB251D24D30400410B70 /* AFNetworking.framework */,
+				AE20AB271D24D30400410B70 /* AFNetworking.framework */,
+				AE20AB291D24D30400410B70 /* AFNetworking.framework */,
+				AE20AB2B1D24D30400410B70 /* AFNetworking.framework */,
+				AE20AB2D1D24D30400410B70 /* AFNetworking iOS Tests.xctest */,
+				AE20AB2F1D24D30400410B70 /* AFNetworking Mac OS X Tests.xctest */,
+				AE20AB311D24D30400410B70 /* AFNetworking tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE20A98F1D24D23100410B70 /* SubmoduleSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE20A9A71D24D23200410B70 /* Build configuration list for PBXNativeTarget "SubmoduleSample" */;
+			buildPhases = (
+				AE20A98C1D24D23100410B70 /* Sources */,
+				AE20A98D1D24D23100410B70 /* Frameworks */,
+				AE20A98E1D24D23100410B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubmoduleSample;
+			productName = SubmoduleSample;
+			productReference = AE20A9901D24D23100410B70 /* SubmoduleSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE20A9881D24D23100410B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Geass;
+				TargetAttributes = {
+					AE20A98F1D24D23100410B70 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE20A98B1D24D23100410B70 /* Build configuration list for PBXProject "SubmoduleSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE20A9871D24D23100410B70;
+			productRefGroup = AE20A9911D24D23100410B70 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AE20AB1B1D24D30400410B70 /* Products */;
+					ProjectRef = AE20AB1A1D24D30400410B70 /* AFNetworking.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AE20A98F1D24D23100410B70 /* SubmoduleSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AE20AB251D24D30400410B70 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = AE20AB241D24D30400410B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE20AB271D24D30400410B70 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = AE20AB261D24D30400410B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE20AB291D24D30400410B70 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = AE20AB281D24D30400410B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE20AB2B1D24D30400410B70 /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = AE20AB2A1D24D30400410B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE20AB2D1D24D30400410B70 /* AFNetworking iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking iOS Tests.xctest";
+			remoteRef = AE20AB2C1D24D30400410B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE20AB2F1D24D30400410B70 /* AFNetworking Mac OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking Mac OS X Tests.xctest";
+			remoteRef = AE20AB2E1D24D30400410B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE20AB311D24D30400410B70 /* AFNetworking tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking tvOS Tests.xctest";
+			remoteRef = AE20AB301D24D30400410B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE20A98E1D24D23100410B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE20A9A31D24D23200410B70 /* LaunchScreen.storyboard in Resources */,
+				AE20A9A01D24D23200410B70 /* Assets.xcassets in Resources */,
+				AE20A99E1D24D23100410B70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE20A98C1D24D23100410B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE20A99B1D24D23100410B70 /* ViewController.m in Sources */,
+				AE20A9981D24D23100410B70 /* AppDelegate.m in Sources */,
+				AE20A9951D24D23100410B70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE20A99C1D24D23100410B70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE20A99D1D24D23100410B70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE20A9A11D24D23200410B70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE20A9A21D24D23200410B70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE20A9A51D24D23200410B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE20A9A61D24D23200410B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE20A9A81D24D23200410B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/External/AFNetworking/**";
+				INFOPLIST_FILE = SubmoduleSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.SubmoduleSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE20A9A91D24D23200410B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/External/AFNetworking/**";
+				INFOPLIST_FILE = SubmoduleSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coder.SubmoduleSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE20A98B1D24D23100410B70 /* Build configuration list for PBXProject "SubmoduleSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE20A9A51D24D23200410B70 /* Debug */,
+				AE20A9A61D24D23200410B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE20A9A71D24D23200410B70 /* Build configuration list for PBXNativeTarget "SubmoduleSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE20A9A81D24D23200410B70 /* Debug */,
+				AE20A9A91D24D23200410B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE20A9881D24D23100410B70 /* Project object */;
+}
