@@ -1,9 +1,6 @@
 [submodule "Frameworks/External/AFNetworking"]
 	path = Frameworks/External/AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
-[submodule "Frameworks/External/ReactNative"]
-	path = Frameworks/External/ReactNative
-	url = https://github.com/CodeLiar/ReactNativeSample.git
 [submodule "SubmoduleSample/Frameworks/External/ReactNative"]
 	path = SubmoduleSample/Frameworks/External/ReactNative
 	url = https://github.com/CodeLiar/ReactNativeSample.git
