@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "43EB4B21520CEDB682CE714583857C4CB577B5DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "28FC6F266C1CBF3BC11871323F433C92A17EF7DC" : 0,
+    "43EB4B21520CEDB682CE714583857C4CB577B5DC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD51DCA8-8E4E-4C48-9687-ED492BC0B86C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "28FC6F266C1CBF3BC11871323F433C92A17EF7DC" : "SubmoduleSample\/Frameworks\/External\/ReactNative\/",
+    "43EB4B21520CEDB682CE714583857C4CB577B5DC" : "SubmoduleSample\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SubmoduleSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SubmoduleSample\/SubmoduleSample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CodeLiar\/ReactNativeSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28FC6F266C1CBF3BC11871323F433C92A17EF7DC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CodeLiar\/SubmoduleSample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43EB4B21520CEDB682CE714583857C4CB577B5DC"
+    }
+  ]
+}
